@@ -1,0 +1,13 @@
+{
+  "login": {
+    "title": "Login",
+    "username": "Usuário",
+    "password": "Senha",
+    "language": "Idioma",
+    "placeholder": {
+      "username": "Digite seu Usuário",
+      "password": "Digite sua Senha"
+    },
+    "button": "Entrar"
+  }
+}

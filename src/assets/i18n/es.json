@@ -1,0 +1,13 @@
+{
+  "login": {
+    "title": "Inicio de Sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "language": "Idioma",
+    "placeholder": {
+      "username": "Ingrese su Usuario",
+      "password": "Ingrese su Contraseña"
+    },
+    "button": "Iniciar Sesión"
+  }
+}
