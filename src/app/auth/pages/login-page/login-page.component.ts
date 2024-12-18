@@ -7,8 +7,9 @@ import Swal from 'sweetalert2';
 import {environment} from '../../../../environments/environment';
 
 @Component({
-  templateUrl: './login-page.component.html',
-  styleUrl: './login-page.component.css'
+    templateUrl: './login-page.component.html',
+    styleUrl: './login-page.component.css',
+    standalone: false
 })
 export class LoginPageComponent implements OnInit {
 
