@@ -1,5 +1,5 @@
 import {computed, inject, Injectable, signal} from '@angular/core';
-import {environments} from '../../../environments/environments';
+import {environment} from '../../../environments/environment';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {catchError, map, Observable, of, throwError} from 'rxjs';
 import {AuthStatus, CheckTokenResponse, LoginResponse, User} from '../interfaces';
@@ -9,7 +9,7 @@ import {AuthStatus, CheckTokenResponse, LoginResponse, User} from '../interfaces
 })
 export class AuthService {
 
-  private readonly baseUrl: string = environments.baseUrl;
+  private readonly baseUrl: string = environment.baseUrl;
   private http = inject(HttpClient);
 
   private _currentUser = signal<User|null>(null);

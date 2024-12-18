@@ -7,6 +7,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
 import {TranslatePipe} from "@ngx-translate/core";
+import {PrimeNgModule} from '../prime-ng/prime-ng.module';
 
 
 @NgModule({
@@ -15,11 +16,12 @@ import {TranslatePipe} from "@ngx-translate/core";
     RegisterPageComponent,
     AuthLayoutComponent
   ],
-    imports: [
-        CommonModule,
-        AuthRoutingModule,
-        ReactiveFormsModule,
-        TranslatePipe
-    ]
+  imports: [
+    CommonModule,
+    AuthRoutingModule,
+    ReactiveFormsModule,
+    TranslatePipe,
+    PrimeNgModule
+  ]
 })
 export class AuthModule { }

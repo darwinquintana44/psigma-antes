@@ -1,0 +1,10 @@
+{
+  "login": {
+    "title": "Inicio de Sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "language": "Idioma",
+    "button": "Iniciar Sesión",
+    "cargando": "Cargando"
+  }
+}

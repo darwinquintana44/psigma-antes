@@ -1,0 +1,10 @@
+{
+  "login": {
+    "title": "Login",
+    "username": "Usuário",
+    "password": "Senha",
+    "language": "Idioma",
+    "button": "Entrar",
+    "cargando": "Loading"
+  }
+}
